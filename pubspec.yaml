@@ -1,0 +1,49 @@
+name: rock_paper_scissors
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  simple_shadow: ^0.3.1
+  dotted_border: ^2.1.0
+  flip_card: ^0.7.0
+  flutter_animate: ^4.4.0
+  confetti: ^0.7.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  firebase_database: ^10.4.0
+  fade_out_particle: ^1.2.1
+  lottie: ^3.0.0
+  audioplayers: ^5.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Thin.ttf
+          weight: 200
+        - asset: fonts/Lato-Light.ttf
+          weight: 300
+        - asset: fonts/Lato-Regular.ttf
+          weight: 400
+        - asset: fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: fonts/Lato-Italic.ttf
+          style: italic
